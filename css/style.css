@@ -1,0 +1,20 @@
+.logo {
+    height: 50px;
+    width: 50px;
+    background-image: url(https://picsum.photos/id/40/4106/2806);
+    background-size: cover;
+    border-radius: 10%;
+}
+div {
+    position: sticky;
+    text-align: center;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+nav>a{
+    color: rgb(27, 25, 130);
+    text-decoration: none;
+}
