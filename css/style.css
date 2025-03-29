@@ -131,4 +131,12 @@ body {
     color: #f5b301;
 }
 
-
+.namebar {
+    background-color: var(--success-color);
+    border-top: 2px solid var(--primary-color);
+    padding: 5px 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 1000;
+}
