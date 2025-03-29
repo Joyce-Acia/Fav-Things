@@ -8,26 +8,55 @@
     <link rel="stylesheet" href="css\style.css">
 </head>
 <body>
-    <header class="main-header">
-
-        <!-- for logo -->
-        <div class="logo">
-        
         <!-- for navigation-->
-         <nav>
-            <a href="#">Home</a> >> 
-            <a href="#me">About Me</a> >> 
-            <a href="#film">Film</a> >> 
-            <a href="#game">Game</a> >> 
-            <a href="#manhwa">Manhwa</a> >> 
-            <a href="#song">Songs</a>
-         </nav>
-        </div>
-         <h1>My Favorite Things(for now)</h1>
-         <h3><small>Author:Joyce Zaneta</small></h3>
-    </header>
+         <nav class="navbar">
+            <div class="container">
 
-    <main>
+            <a href="/" class="fav">My Favorite Things</a>
+            <div class="navlink">
+                <ul>
+            <li><a href="#">About Me</a> <b>>> </b></li>
+            <li><a href="#food">Foods</a> <b>>> </b></li>
+            <li><a href="#film">Film</a> <b>>> </b></li>
+            <li><a href="#game">Game</a> <b>>> </b></li>
+            <li><a href="#song">Songs</a> <b>>> </b></li> 
+            <li><a href="#call">Call Me</a></li>
+        </ul>
+        </div>
+
+        <div class="navicon">
+            <a href="#" target="_blank">
+                <img src="./assets/quokka.jpeg" alt="home">
+            </a>
+            <button id="menu" class="menu">☰</button>
+        </div>
+        </div>
+        </nav>
+
+        <div class="head">
+        <h1>My Favorite Things(for now)</h1>
+        <h3><small>Author:Joyce Zaneta</small></h3>
+        </div>
+
+        <section class= "help" id="#">
+        <div class="content">
+            <img src="./assets/me.jpg" alt="Me" class="image">
+               <h3>About Me</h3>
+                <p><br>A college student who always tired 24/7</p>
+
+                <div>
+                    <p>Hello! My name is Joyce Zaneta and I'm currently making this painful website just for YOU. So if YOU🫵😡 mind, before we go further, please give me 5/5 rating on the below pretty please?</p>
+                    <div class="star-rating">
+                        <input type="radio" id="star5" name="rating" value="5" /><label for="star5" title="5 stars">★</label>
+                        <input type="radio" id="star4" name="rating" value="4" /><label for="star4" title="4 stars">★</label>
+                        <input type="radio" id="star3" name="rating" value="3" /><label for="star3" title="3 stars">★</label>
+                        <input type="radio" id="star2" name="rating" value="2" /><label for="star2" title="2 stars">★</label>
+                        <input type="radio" id="star1" name="rating" value="1" /><label for="star1" title="1 star">★</label>
+                    </div>
+                </div>
+        </div>
+        </section>
+
         <section id="me">
         <h2>About Me</h2>
         <h3>Welcome!</h3>

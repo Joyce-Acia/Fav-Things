@@ -1,20 +1,126 @@
-.logo {
-    height: 50px;
-    width: 50px;
-    background-image: url(https://picsum.photos/id/40/4106/2806);
-    background-size: cover;
-    border-radius: 10%;
+html {
+    scroll-behavior: smooth;
 }
-div {
-    position: sticky;
-    text-align: center;
+
+:root {
+    --primary-color: #396c4f;;
+    --secondary-color: #000000;
+    --success-color: #8d34dbc7;
 }
-nav {
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:var(--secondary-color);
+}
+
+body {
+    background-color: #d1f4df;
+    color: #321515;
+}
+
+.container {
+    max-width: 1100px;
+    margin: auto;
     display: flex;
+    align-items: center;
     justify-content: space-between;
-    align-content: center;
 }
-nav>a{
-    color: rgb(27, 25, 130);
+
+.fav {
+    font-size: 20px;
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    }
+
+.navlink ul li a{
+    color: #fff;;
     text-decoration: none;
 }
+
+.navlink ul {
+    color: var(--secondary-color);
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar {
+    background-color: var(--primary-color);
+    border-bottom: 2px solid var(--success-color);
+    padding: 15px 20px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.navicon img {
+    width: 30px;
+}
+
+.menu {
+    display: none;
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.head {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 20px;
+}
+
+.help {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 100px 20px;
+}
+.image {
+    width: 300px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.help .content {
+    justify-content: center;
+    display: flex;
+    margin-top: 20px;
+}
+
+/* Star Rating */
+.star-rating {
+    direction: rtl;
+    display: inline-block;
+    font-size: 2em;
+}
+
+.star-rating input {
+    display: none;
+}
+
+.star-rating label {
+    color: #000000;
+    cursor: pointer;
+}
+
+.star-rating input:checked ~ label {
+    color: #f5b301;
+}
+
+.star-rating label:hover,
+.star-rating label:hover ~ label {
+    color: #f5b301;
+}
+
+
