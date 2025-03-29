@@ -2,6 +2,12 @@ html {
     scroll-behavior: smooth;
 }
 
+@media only screen and (max-width: 480px) {
+    .main-content {
+        flex-direction: column;
+    }
+}
+
 :root {
     --primary-color: #396c4f;;
     --secondary-color: #000000;
