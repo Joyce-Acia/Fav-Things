@@ -11,7 +11,8 @@ html {
 :root {
     --primary-color: #396c4f;;
     --secondary-color: #000000;
-    --success-color: #8d34dbc7;
+    --success-color: rgba(141, 52, 219, 0.65); 
+    /*0.65 utk menentukan transperentcy  */
 }
 
 * {
@@ -146,3 +147,23 @@ body {
     width: 100%;
     z-index: 1000;
 }
+
+/* form */
+
+textarea::placeholder {
+    color: var(--primary-color);
+    font-style: italic;
+    font-size: 1.2em;
+    }
+
+textarea {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px; 
+    box-sizing: border-box; 
+    border: 2px solid var(--secondary-color);
+    border-radius: 4px;
+    background-color: var(--success-color);
+    font-size: 16px;
+    resize: none;
+  }
