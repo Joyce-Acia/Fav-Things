@@ -3,7 +3,7 @@
         }
 
         @media only screen and (max-width: 480px) {
-            .main-content {
+            .main-container {
                 flex-direction: column;
             }
         }
@@ -168,38 +168,39 @@
             margin-right: 20px;
             border-radius: 10%;
         }
-.help .content {
+
+.help {
     justify-content: center;
     display: flex;
     margin-top: 20px;
 }
 
-/* Star Rating */
-.star-rating {
-    direction: rtl;
-    display: inline-block;
-    font-size: 2em;
-    text-align: center;
-    align-content: center;
-}
+        /* Star Rating */
+        .star-rating {
+            direction: rtl;
+            /* display: inline-block; */
+            font-size: 2em;
+            text-align: center;
+            align-content: center;
+        }
 
-.star-rating input {
-    display: none;
-}
+        .star-rating input {
+            display: none;
+        }
 
-.star-rating label {
-    color: #000000;
-    cursor: pointer;
-}
+        .star-rating label {
+            color: #000000;
+            cursor: pointer;
+        }
 
-.star-rating input:checked ~ label {
-    color: #f5b301;
-}
+        .star-rating input:checked ~ label {
+            color: #f5b301;
+        }
 
-.star-rating label:hover,
-.star-rating label:hover ~ label {
-    color: #f5b301;
-}
+        .star-rating label:hover,
+        .star-rating label:hover ~ label {
+            color: #f5b301;
+        }
 
 .namebar {
     background-color: var(--success-color);
