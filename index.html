@@ -7,20 +7,20 @@
     <!-- CSS  -->
     <link rel="stylesheet" href="css\style.css">
 </head>
-<header>
+<header class="main-content">
  <!-- for navigation-->
          <nav class="navbar">
             <div class="container">
 
             <a href="/" class="fav">My Favorite Things</a>
             <div class="navlink">
-                <ul>
-            <li><a href="#">About Me</a> <b>>> </b></li>
-            <li><a href="#food">Foods</a> <b>>> </b></li>
-            <li><a href="#game">Game</a> <b>>> </b></li>
-            <li><a href="#song">Songs</a> <b>>> </b></li> 
-            <li><a href="#call">Call Me</a></li>
-        </ul>
+            <ul>
+                <li><a href="#me">About Me</a> <b>>> </b></li>
+                <li><a href="#food">Foods</a> <b>>> </b></li>
+                <li><a href="#game">Game</a> <b>>> </b></li>
+                <li><a href="#song">Songs</a> <b>>> </b></li> 
+                <li><a href="#bias">Bias</a></li>
+            </ul>
         </div>
 
         <div class="navicon">
@@ -34,24 +34,27 @@
 </header>
 <body>
 
-        <div class="head">
+    <div class="head">
         <h1>My Favorite Things(for now)</h1>
         <h3><small>Author:Joyce Zaneta</small></h3>
-        </div>
+    </div>
 
-        <section class= "help" id="#">
+    <section class= "help" id="me">
         <div class="content">
             <div id="left">
                 <img src="./assets/me.jpg" alt="Me" class="image">
             </div>
-            <div id="right">
-                <div id="up">
+
+            <div id="right" class="des">
+                <div id="up" style="text-align: center;">
                <h3>About Me</h3><br>
                 <p>A college student who always tired 24/7</p>
                 </div>
 
-                <div id="below"><br>
-                    <p>Hello! My name is Joyce Zaneta and I'm currently making this painful website just for YOU. So if YOU🫵😡 mind, before we go further, please give me 5/5 rating on the below pretty please?</p>
+                <div id="below" class="describ fadein"><br>
+                    <p>Hello! My name is Joyce Zaneta and I'm currently making this painful website just for YOU. So if YOU🫵😡 mind, before we go further, please give me 5/5 rating on the below pretty please?     
+                    </p>
+
                     <div class="star-rating">
                         <input type="radio" id="star5" name="rating" value="5" /><label for="star5" title="Thank You (❁´◡`❁)">★</label>
                         <input type="radio" id="star4" name="rating" value="4" /><label for="star4" title="Decent ￣へ￣">★</label>
@@ -65,19 +68,55 @@
         </section>
 
             <!-- content -->
-        <section id="food">
-            Bakso 
-            <p>Kenapa stress? Kan ada bakso 😋</p>
-            <div class="content">
-                <img src="./assets/bakso.jpg" alt="Banger" class="image2">
-                   <h3>Kenapa Bakso?</h3>
-                   <ul>
-                    <li>1. Enak</li>
-                    <li>2. Kuahnya Anget</li>
-                    <li>3. Comfort Food</li>
-                   </ul>
+    <section class="help" id="food">
+        <h1 class="bold" style="font-size: 50px;">Food Section</h1>
+        <div class="container" >
+            <div id="left">
+            <img src="./assets/bakso.jpg" alt="Banger" class="image2">
             </div>
 
+            <div id="right" class="des2">
+                <div id="up">
+                    <p class="bold" >Kenapa stress? Kan ada 𝑩𝚨𝑲𝑺𝜪 😋
+                    </p>
+                </div>
+
+                <div id="below" class="describ des2">
+                    <ul>
+                        <li>1. Enak</li>
+                        <li>2. Kuahnya Anget</li>
+                        <li>3. Comfort Food</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div id="left">
+            <img src="./assets/sapi.jpg" alt="Banger" class="image2">
+            </div>
+
+            <div id="right" class="des2">
+                <div id="up">
+                    <p class="bold">Beef Brisket nama fancynya
+                    </p>
+                </div>
+
+                <div id="below" class="describ des2s">
+                    <div id="text" class="fadein">
+                    <h3>Beef Brisket (lokalnya dibilang Se'i Sapi), merupakan daging yang diiris tipis dan diasapi dalam jangka waktu yang lama hingga daging memiliki aroma rempah dan asap yang khas.</h3>
+                    <p>Se'i Sapi sebenarnya merupakan makanan dari NTT, tapi aku pertama kali nyobanya di Ponti. Dan seperti kata teman saya di kepolisian,</p>
+                    <article><q>Awalnya saya coba coba, lalu ketagihan, kemudian beli sendiri</q></article>
+                    <ul>
+                        <li>1. Ada Smoky smokynya gitu</li>
+                        <li>2. Sambalnya enak</li>
+                        <li>3. Tahan Lama</li>
+                    </ul>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
             <!-- <div class="content">
                 Dim Sum
                 <img src="./assets/dimsum.jpg" alt="Banger" class="image2">
@@ -93,16 +132,29 @@
         </section>
     
 
-    <section id="game">
+    <section class="help" id="game">
+        <h1 class="bold" style="font-size: 50px;">Game Section</h1>
+
         <div class="content">
+            <div id="left">
             <img src="./assets/Genshin.jpeg" alt="Banger" class="image2">
-               <h3>Kenawhy Gensing?</h3>
-                <ul>
-                    <li>1. All My Luck is There</li>
-                    <li>2. ( ͡° ͜ʖ ͡°)</li>
-                    <li>3. <sub><del>actually not my fav</del></sub></li>
-                </ul>
+            </div>
+
+            <div id="right" class="des2">
+                <div id="up">
+                    <h3 class="bold">Kenawhy Gensing?</h3>
+                </div>
+
+                <div id="below" class="describ des2">
+                    <ul>
+                        <li>1. All My Luck is There</li>
+                        <li>2. ( ͡° ͜ʖ ͡°)</li>
+                        <li>3. <sub><del>actually not my fav</del></sub></li>
+                    </ul>
+                </div>
+            </div>
         </div>
+
 <!--  
         <div class="content">
             <img src="./assets/Duolingo.jpg" alt="Banger" class="image2">
@@ -116,14 +168,35 @@
 
     </section>
 
-    <section id="song">
+    <section class="help" id="song">
+        <h1 class="bold" style="font-size: 50px;">Song Section</h1>
+
         <div class="content">
-            <iframe class="image2"  width="560" height="315" src="https://www.youtube.com/embed/bw4AuPrLWeA?si=I8zeIsJBP1PPdQLQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>               <h3>Hee Hee</h3>
-               <ul>
-                <li>1. Calming</li>
-                <li>2. Vocal is vocaling</li>
-                <li>3. Cuz its SVT (*/ω＼*)</li>
-               </ul>
+            <div id="left">
+            <iframe class="image2"  width="560" height="315" src="https://www.youtube.com/embed/bw4AuPrLWeA?si=I8zeIsJBP1PPdQLQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>               
+            <h3 class="fadein">Hee Hee... COK AKU MAUNYA fadein DI KOLOM GUWA!!! BUKAN DISINI</h3>
+
+            </div>
+
+            <div id="right" class="des2">
+                
+                <div id="up" class="bold">
+                    청춘찬가
+                </div>
+                <div id="below" class="describ des2">
+                    <div id="text">
+                        <p>Cheers To Youth ini dibuat oleh salah satu unit K-Pop Group "Seventeen" yaitu "Vocal Unit Group".
+                            <br>
+                           Lagu ini berpesan untuk merayakan masa muda dan semangat juang, tidak menyerah dan terus berusaha karena bagaimanapun juga, ini adalah pertama kalinya kita hidup
+                        </p>
+                    </div>
+                    <ul>
+                        <li>1. Calming</li>
+                        <li>2. Vocal is vocaling</li>
+                        <li>3. Cuz its SVT (*/ω＼*)</li>
+                    </ul>
+                </div>
+            </div>
         </div>
  
         <!-- <div class="content">
@@ -136,7 +209,7 @@
                 </ul>
         </div> -->
 
-    </section>
+    <!-- </section>
     
             <section id="call" style="font-size:x-large;">
               <h2>If you want to debate my taste.... </h2>
@@ -145,7 +218,45 @@
                 <button>
                     <a href="form.html">Form</a></button>
               </a>
-    </section>
+    </section> -->
+
+    <section class="help" id="food">
+        <h1 class="bold" style="font-size: 50px;">Food Section</h1>
+        <div class="container" >
+            <div id="left">
+            <img src="./assets/bakso.jpg" alt="Banger" class="image2">
+            </div>
+
+            <div id="right" class="des2">
+                <div id="up">
+                    <p class="bold" >Kenapa stress? Kan ada bakso 😋
+                    </p>
+                </div>
+
+                <div id="below" class="describ">
+                    <ul>
+                        <li>1. Enak</li>
+                        <li>2. Kuahnya Anget</li>
+                        <li>3. Comfort Food</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        
+            <!-- <div class="content">
+                Dim Sum
+                <img src="./assets/dimsum.jpg" alt="Banger" class="image2">
+                   <h3>Kenapa Dim Sum? </h3>
+                   <ul>
+                    <li>1. Langsung Hap</li>
+                    <li>2. Anget</li>
+                    <li>3. Gk tau suka aj ㄟ( ▔, ▔ )ㄏ</li>
+                   </ul>
+                    
+            </div> -->
+    
+        </section>
     </main> 
     <h3><small>‎ </small></h3>
 
