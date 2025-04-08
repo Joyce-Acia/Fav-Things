@@ -25,6 +25,15 @@
             }
         }
 
+        @keyframes hide {
+            from {
+            opacity: 0;
+            }
+            to {
+            opacity: 0;
+            }
+        }
+
 
 
         :root {
@@ -118,11 +127,71 @@
     padding: 100px 20px;
 }
 
+.hide {
+        display: none;
+        /* visibility: hidden; */
+        /* animation:hide; */
+}
+
+.hide:hover{
+    display: block;
+    visibility: visible;
+    
+        animation: fadeIn 2s ease-in-out;
+        animation-fill-mode: forwards;
+}
+
 .describ {
+    /* animation:hide; */
     padding: 5%;
     background-color:#341d8564;
     border-radius: 10%;
+    animation: fadeOut 3s ease-in-out;
+    /* transition: width 2s; */
+    animation-fill-mode: forwards;
+
 }
+
+.describ:hover{
+    animation: fadeIn 2s ease-in-out;
+    animation-fill-mode: forwards;
+}
+
+/* #describ2 {
+    padding: 5%;
+    background-color:#341d8564;
+    border-radius: 10%;
+    animation: fadeOut 2s ease-in-out;
+    transition: width 2s;
+}
+#describ3 {
+    padding: 5%;
+    background-color:#341d8564;
+    border-radius: 10%;
+    animation: fadeOut 2s ease-in-out;
+    transition: width 2s;
+}
+#describ4 {
+    padding: 5%;
+    background-color:#341d8564;
+    border-radius: 10%;
+    animation: fadeOut 2s ease-in-out;
+    transition: width 2s;
+}
+#describ5 {
+    padding: 5%;
+    background-color:#341d8564;
+    border-radius: 10%;
+    animation: fadeOut 2s ease-in-out;
+    transition: width 2s;
+}
+#describ6 {
+    padding: 5%;
+    background-color:#341d8564;
+    border-radius: 10%;
+    animation: fadeOut 2s ease-in-out;
+    transition: width 2s;
+} */
 
     /* animation */
         .des {
