@@ -127,19 +127,19 @@
     padding: 100px 20px;
 }
 
-.hide {
-        display: none;
-        /* visibility: hidden; */
-        /* animation:hide; */
+/* .hide {
+        display: block;
+        visibility:collapse;
+        animation:hide;
 }
 
 .hide:hover{
     display: block;
     visibility: visible;
     
-        animation: fadeIn 2s ease-in-out;
+    animation: fadeOut 2s ease-in-out;
         animation-fill-mode: forwards;
-}
+} */
 
 .describ {
     /* animation:hide; */
