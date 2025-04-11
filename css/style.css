@@ -134,12 +134,12 @@
 }
 
 .hide:hover{
-    display: block;
-    visibility: visible;
-    
-    animation: fadeOut 2s ease-in-out;
-        animation-fill-mode: forwards;
+    opacity: 100%;
+    transition: opacity 1s;
 } */
+#below {
+    animation: hide 0s;
+}
 
 .describ {
     /* animation:hide; */
@@ -149,12 +149,13 @@
     animation: fadeOut 3s ease-in-out;
     /* transition: width 2s; */
     animation-fill-mode: forwards;
-
+    /* visibility: hidden; */
 }
 
 .describ:hover{
     animation: fadeIn 2s ease-in-out;
     animation-fill-mode: forwards;
+    /* visibility: visible; */
 }
 
 /* #describ2 {
