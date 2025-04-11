@@ -39,7 +39,7 @@
         :root {
             --primary-color: hsl(146, 31%, 32%);;
             --secondary-color: #ffffff60;
-            --success-color: hsla(272, 70%, 53%, 0.651); 
+            --success-color: hsla(274, 53%, 54%, 0.651); 
             /*0.65 utk menentukan transperentcy  */
         }
 
@@ -93,7 +93,7 @@
 .navbar {
     background-color: var(--primary-color);
     border-bottom: 2px solid var(--success-color);
-    padding: 15px 20px;
+    /* padding: 15px 20px; */
     position: fixed;
     top: 0;
     width: 100%;
@@ -116,7 +116,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 100px 20px;
+    padding: 80px 20px;
 }
 
 .help {
@@ -141,7 +141,9 @@
 
 .describ:hover{
     animation: fadeIn 2s ease-in-out;
+    
     animation-fill-mode: forwards;
+    
     /* visibility: visible; */
 }
 
