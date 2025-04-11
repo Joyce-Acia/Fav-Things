@@ -127,19 +127,6 @@
     padding: 100px 20px;
 }
 
-/* .hide {
-        display: block;
-        visibility:collapse;
-        animation:hide;
-}
-
-.hide:hover{
-    opacity: 100%;
-    transition: opacity 1s;
-} */
-/* #below {
-    animation: hideall 0s;
-} */
 
 .describ {
     /* animation:hide; */
@@ -158,41 +145,6 @@
     /* visibility: visible; */
 }
 
-/* #describ2 {
-    padding: 5%;
-    background-color:#341d8564;
-    border-radius: 10%;
-    animation: fadeOut 2s ease-in-out;
-    transition: width 2s;
-}
-#describ3 {
-    padding: 5%;
-    background-color:#341d8564;
-    border-radius: 10%;
-    animation: fadeOut 2s ease-in-out;
-    transition: width 2s;
-}
-#describ4 {
-    padding: 5%;
-    background-color:#341d8564;
-    border-radius: 10%;
-    animation: fadeOut 2s ease-in-out;
-    transition: width 2s;
-}
-#describ5 {
-    padding: 5%;
-    background-color:#341d8564;
-    border-radius: 10%;
-    animation: fadeOut 2s ease-in-out;
-    transition: width 2s;
-}
-#describ6 {
-    padding: 5%;
-    background-color:#341d8564;
-    border-radius: 10%;
-    animation: fadeOut 2s ease-in-out;
-    transition: width 2s;
-} */
 
     /* animation */
         .des {
