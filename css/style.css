@@ -129,22 +129,17 @@
 
 
 .describ {
-    /* animation:hide; */
     padding: 5%;
     background-color:#341d8564;
     border-radius: 10%;
     animation: hideall 3s ease-in-out;
-    /* transition: width 2s; */
     animation-fill-mode: forwards;
-    /* visibility: hidden; */
 }
 
 .describ:hover{
     animation: fadeIn 2s ease-in-out;
     
     animation-fill-mode: forwards;
-    
-    /* visibility: visible; */
 }
 
 
