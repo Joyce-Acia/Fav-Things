@@ -35,11 +35,11 @@
         }
 
 
-
         :root {
-            --primary-color: hsl(146, 31%, 32%);;
-            --secondary-color: #ffffff60;
-            --success-color: hsla(274, 53%, 54%, 0.651); 
+            --primary-color: hsl(0, 58%, 50%);;
+            --secondary-color: #e07e7e;
+            --success-color: hsl(0, 100%, 11%); 
+            --box-color:#98202cc5;
             /*0.65 utk menentukan transperentcy  */
         }
 
@@ -51,8 +51,8 @@
         }
 
         body {
-            background-color: #d1f4df;
-            color: #321515;
+            background-color: var(--secondary-color);
+            color: var(--success-color);
         }
 
 
@@ -60,6 +60,16 @@
     font-weight: bold;
     text-align: center;
     font-size: 20px;
+}
+
+.main-container {
+    content: '';
+    background-image: url(./assets/quokka.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    background-size: cover;
+
 }
 
 .container {
@@ -72,13 +82,13 @@
 
 .fav {
     font-size: 20px;
-    color: #fff;
+    color: var(--success-color);
     font-weight: bold;
     text-decoration: none;
     }
 
 .navlink ul li a{
-    color: #fff;;
+    color: var(--success-color);;
     text-decoration: none;
 }
 
@@ -93,16 +103,23 @@
 .navbar {
     background-color: var(--primary-color);
     border-bottom: 2px solid var(--success-color);
-    /* padding: 15px 20px; */
+    padding: 15px 20px; 
     position: fixed;
     top: 0;
     width: 100%;
-    z-index: 1000;
+    z-index: 1000; 
+
 }
 
-.navicon img {
-    width: 30px;
-}
+.navicon {
+    border: none;
+    /* content: '';
+    background-image: url(./assets/quokka.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    background-size: cover; */
+} 
 
 .menu {
     display: none;
@@ -130,7 +147,7 @@
 
 .describ {
     padding: 5%;
-    background-color:#341d8564;
+    background-color:var(--box-color);
     border-radius: 10%;
     animation: hideall 3s ease-in-out;
     animation-fill-mode: forwards;
@@ -147,7 +164,7 @@
         .des {
             width: 100px;
             height: 500px;
-            background: var(--success-color);
+            background: var(--primary-color);
             transition: width 2s;
             border-radius: 10%;
         }
@@ -159,7 +176,7 @@
         .des2 {
             width: 100px;
             height: 300px;
-            background: var(--success-color);
+            background: var(--primary-color);
             transition: width 2s;
             border-radius: 10%;
         }
@@ -236,7 +253,7 @@
         }
 
         .star-rating label {
-            color: #000000;
+            color: var(--success-color);
             cursor: pointer;
         }
 
@@ -250,8 +267,8 @@
         }
 
 .namebar {
-    background-color: var(--success-color);
-    border-top: 2px solid var(--primary-color);
+    background-color: var(--primary-color);
+    border-top: 2px solid var(--success-color);
     padding: 5px 20px;
     position: fixed;
     bottom: 0;
